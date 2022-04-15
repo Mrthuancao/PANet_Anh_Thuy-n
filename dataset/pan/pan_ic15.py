@@ -200,7 +200,7 @@ def shrink(bboxes, rate, max_shr=20):
     rate = rate * rate
     shrinked_bboxes = []
     for bbox in bboxes:
-        area = plg.Polygon(bbox).area()
+        area = plg.polygon(bbox).area()
         peri = perimeter(bbox)
 
         try:
