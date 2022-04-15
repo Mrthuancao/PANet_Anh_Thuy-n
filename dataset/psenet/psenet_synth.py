@@ -3,7 +3,7 @@ import random
 
 import cv2
 import numpy as np
-import Polygon as plg
+import polygon as plg
 import pyclipper
 import scipy.io as scio
 import torch
