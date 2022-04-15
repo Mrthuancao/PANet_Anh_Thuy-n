@@ -3,7 +3,7 @@ import random
 import cv2
 import mmcv
 import numpy as np
-import Polygon as plg
+import polygon as plg
 import pyclipper
 import torch
 import torchvision.transforms as transforms
