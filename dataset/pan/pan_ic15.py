@@ -12,13 +12,13 @@ import torchvision.transforms as transforms
 from PIL import Image
 from torch.utils import data
 
-ic15_root_dir = './data/ICDAR2015/Challenge4/'
-ic15_train_data_dir = ic15_root_dir + 'ch4_training_images/'
+ic15_root_dir = '/content/My_data'
+ic15_train_data_dir = ic15_root_dir + '/content/My_data/training_img'
 ic15_train_gt_dir = ic15_root_dir + \
-                    'ch4_training_localization_transcription_gt/'
-ic15_test_data_dir = ic15_root_dir + 'ch4_test_images/'
+                    '/content/My_data/training_gt'
+ic15_test_data_dir = ic15_root_dir + '/content/My_data/training_img'
 ic15_test_gt_dir = ic15_root_dir + \
-                   'ch4_test_localization_transcription_gt/'
+                   '/content/My_data/training_gt'
 
 
 def get_img(img_path, read_type='pil'):
