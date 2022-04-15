@@ -13,12 +13,12 @@ from PIL import Image
 from torch.utils import data
 
 ic15_root_dir = '/content/My_data'
-ic15_train_data_dir = ic15_root_dir + '/training_img'
+ic15_train_data_dir = ic15_root_dir + '/training_img/'
 ic15_train_gt_dir = ic15_root_dir + \
-                    '/training_gt'
-ic15_test_data_dir = ic15_root_dir + '/training_img'
+                    '/training_gt/'
+ic15_test_data_dir = ic15_root_dir + '/training_img/'
 ic15_test_gt_dir = ic15_root_dir + \
-                   '/training_gt'
+                   '/training_gt/'
 
 
 def get_img(img_path, read_type='pil'):
